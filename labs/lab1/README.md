@@ -13,6 +13,6 @@ Using Booktown DB - run SQL queries to answer given problems, alter DB, set trig
 ## TASK 3: Triggers
 - Trigger function and tests of trigger in file: lab1_task3.sql
 - Continue working from own private copy of Booktown
-- Writing and setting a trigger (in plpsql)
-    - Functioning so that whenever a new shipment is recorded => the stocck is automatically decreased accordingly
+- Writing and setting a trigger (in plpgsql)
+    - Functioning so that whenever a new shipment is recorded => the stock is automatically decreased accordingly
     - If no stock is available, prompt error message 'No stock to ship'
