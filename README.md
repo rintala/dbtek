@@ -1,4 +1,4 @@
-# ddbtek
+# dbtek
 Databasteknik - DD1344
   - Labs
       - Lab1
