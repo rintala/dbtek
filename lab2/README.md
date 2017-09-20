@@ -5,9 +5,7 @@ Using Booktown DB - implemented on local server
   
 ## - TASK 1: Basic Application Program
   - interface.py
-  - Using code skeleton - completing two unfinished methods for DB interaction
-        - Insert
-        - Remove
+  - Using code skeleton - completing two unfinished methods for DB interaction: Insert & Remove
         
 ## - TASK 2: Simple Application Program
   - customerInterface.py
