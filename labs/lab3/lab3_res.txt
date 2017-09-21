@@ -1,0 +1,142 @@
+(:LAB3 - RESULTS - OUTPUT:)
+
+<results>
+(:------------- UPPG.1 ---------------:)
+(: 	- get all movies where $movie/genre
+:)
+		
+	
+  <title>Everest</title>
+  <title>National Geographic's Mysteries of Egypt</title>
+	
+
+(:------------- UPPG.2 ---------------:)
+(: 	- for loop - loop over distinct directors
+	- count for each distinct director how many ie count
+:)
+
+	
+<movie director="Tokko">
+<title>Doquissåpan, avsnitt 1</title>
+<title>Doquissåpan, avsnitt 2</title>
+<title>Doquissåpan, avsnitt 4</title></movie>
+
+(:------------- UPPG.3 ---------------:)
+(:Top ten recommended movies:)
+
+	
+  Enemy of the State 
+  Star Wars 
+  Au Revoir Les Enfants 
+  Pinocchio 
+  Doquissåpan, avsnitt 1
+
+
+(:------------- UPPG.4 ---------------:)
+(:Actors that have starred in the most movies
+	Look at actorRef in movies - matching with actor id="" attribute:)
+	
+	
+ actor="Ford, Harrison" 
+ actor="Doqumenteriet2011"
+	
+
+
+(:------------- UPPG.5 ---------------:)
+(:Highest rating movie starring both Brad Pritt and Morgan Freeman
+ 	- Create list actorids with id for brad pitt and morgan freeman
+ 	- loop through all videos where both actorRef is in movie i.e. count is 2  
+ :)
+	
+	<title>Seven</title>		
+	
+
+(:------------- UPPG.6 ---------------:)
+(:Which actors have starred in a PG-13 movie between 1997 and 2006 (including 1997 and 2006)?
+	- Get all movies rated as 'PG-13' AND in range 1997-2006
+	- Select actor_id:s of these =&gt; moviesR
+	- Select actor names from these id's
+	- Loop over output - to present as a list
+:)
+	
+	
+ Ford, Harrison 
+ Heche, Anne 
+ Jones, Tommy Lee 
+ Schwimmer, David 
+ Doqumenteriet2011
+	
+
+(:------------- UPPG.7 ---------------:)
+(:Who have starred in the most distinct types of genre?
+	- Look at distinct list of actor_id:s 
+	- Loop through all movies, looking at actorRef and genre, and count distinct genres
+		- for ALL movies
+	- Then sum these per actor
+
+:)
+
+	
+	actor="Ford, Harrison"
+
+
+
+(:------------- UPPG.8 ---------------:)
+(:Which director have the highest sum of user ratings?
+	- Retrieve distinct list w. all directors
+	- Go through all movies
+	- Add user_rating onto the correct director - inner loop
+	- outer loop summing all user_ratings for director and sorting
+	- Limit 1 to get max of summed user_ratings - get name
+:)
+
+	Tokko
+
+
+(:------------- UPPG.9 ---------------:)
+(:Which movie should you recommend to a customer if they want to see a horror movie and
+	do not have a laserdisk?
+		- go through all movies
+		- correct genre
+		- AND having stock of either of the other disk-types
+:)
+
+
+	<title>Seven</title>
+
+
+
+(:------------- UPPG.10 ---------------:)
+(:Group the movies by genre and sort them by user rating within each genre
+:)
+	
+ <genre genre="action">action</genre>
+      <title>Enemy of the State</title>
+      <title>Star Wars</title>
+      <title>The Fugitive</title>
+ <genre genre="comedy">comedy</genre>
+      <title>Clerks</title>
+      <title>Six Days Seven Nights</title>
+ <genre genre="horror">horror</genre>
+      <title>Seven</title>
+      <title>The Fear</title>
+ <genre genre="family">family</genre>
+      <title>Pinocchio</title>
+      <title>MUPPET TREASURE ISLAND</title>
+ <genre genre="drama">drama</genre>
+      <title>Contact</title>
+      <title>2001: A Space Odyssey</title>
+ <genre genre="foreign">foreign</genre>
+      <title>Au Revoir Les Enfants</title>
+      <title>La Femme Nikita</title>
+ <genre genre="musical">musical</genre>
+      <title>Yellow Submarine</title>
+      <title>Carmen</title>
+ <genre genre="special">special</genre>
+      <title>Everest</title>
+      <title>National Geographic's Mysteries of Egypt</title>
+ <genre genre="documentary">documentary</genre>
+      <title>Doquissåpan, avsnitt 1</title>
+      <title>Doquissåpan, avsnitt 2</title>
+      <title>Doquissåpan, avsnitt 4</title></results>
+_________________________________________________________
