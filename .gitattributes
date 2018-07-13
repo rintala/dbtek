@@ -1,2 +1,3 @@
 *.sql linguist-language=PLpgSQL
 *.sql linguist-detectable=true
+labs/lab2/* linguist-documentation
