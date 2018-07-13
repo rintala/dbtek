@@ -1,1 +1,1 @@
-*.rb linguist-language=plpgsql
+*.sql linguist-detectable=true
